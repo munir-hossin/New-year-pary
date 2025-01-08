@@ -20,10 +20,11 @@ body {
 
 /* Header Section */
 .header {
-    background: url('https://via.placeholder.com/1600x500') no-repeat center center/cover;
+    background: url('../images/header.png') no-repeat center center/cover;
     color: white;
-    padding: 60px 20px;
-    text-transform: uppercase;
+
+    /* padding: 60px 20px; */
+    /* text-transform: uppercase; */
 }
 .header h1 {
     font-size: 2.5rem;
@@ -33,6 +34,16 @@ body {
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
+/* happy-new-year */
+.happy-new-year {
+width: auto;
+padding: 40px 200px;
+height: 100%;
+}
+.happy {
+    text-align: center; 
+    
+}
 
 /* Welcome Section */
 .welcome img {
@@ -40,41 +51,111 @@ body {
     height: auto;
     margin: 20px 0;
 }
+/* join now */
+.join {
+    padding: 100px 0px;
+}
+.join {
+    p {
+        span {
+            color: red;
+        }
+    }
+
+    button {
+        background: red;
+        color: wheat;
+        padding: 15px 90px;
+        margin: 20px 0px;
+        border: none;
+    }
+}
 
 /* Coming Soon Section */
-.coming-soon .content {
+ .content {
     padding: 20px;
     background: #ffebcc;
     border: 1px solid #f1c40f;
     border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
 }
-.coming-soon img {
-    margin: 10px auto;
+
+.coming-soon-img {
+   /* padding: 100px; */
+   display: block;
+}
+.new-best {
+    width: 300px;
+    font-size: x-small;
+    span {
+        color: red;
+    }
+    h2 {
+        color: red;
+    }
+}
+
+.new-best img {
     display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.coming-soon img {
+    /* margin: 3px 100px; */
+    display: block;
+    width: 250px;
 }
 
 /* Holiday Sale Section */
 .holiday-sale {
-    background: #ffe6e6;
+    /* background: #ffe6e6; */
     padding: 40px;
     color: #e74c3c;
+    height: 100%;
+    width: auto;
+    background-image: url('../images/holiday-sale-full.png');
 }
+
+.salse {
+    padding: 400px 20px;
+    /* height: 600px; */
+    /* width: 100%; */
+
+    width: auto;
+    display: block;
+    background-image: url('../images/holiday-sale-full.png') ;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
 .holiday-sale h2 {
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 /* Portfolio Section */
 .portfolio-items {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    -moz-box-align: center;
     gap: 20px;
 }
-.portfolio-items img {
+/* .portfolio-items img {
     width: 200px;
     height: auto;
     border: 2px solid #ddd;
     border-radius: 5px;
+} */
+
+.portfolio {
+    padding: 10px 30px;
 }
 
 /* Subscription Section */
